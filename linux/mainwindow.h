@@ -29,6 +29,7 @@
 #include <QSysInfo>
 #include <cstdlib>
 #include <iostream>
+#include <QSysInfo>
 
 #include <QHBoxLayout>
 

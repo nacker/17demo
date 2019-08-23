@@ -28,7 +28,7 @@ void Count::saveFileToMap(const std::string rootDir)
 		memset(&cur_stat, 0, sizeof(cur_stat));
 		memset(allName, 0, sizeof(allName));
 		sprintf(allName, "%s/%s", rootDir.c_str(), myDirent->d_name);
-		lstat(allName, &cur_stat);
+//		lstat(allName, &cur_stat);
 		//判断当前文件名对应的是否是目录
 		if(S_ISDIR(cur_stat.st_mode))
 		{

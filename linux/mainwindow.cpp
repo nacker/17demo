@@ -46,12 +46,12 @@ void MainWindow::setupData()
 
     // 如果当前操作系统为windows系统的话
         // 修改控制台的编码为utf8，防止中文乱码
-    if ( QSysInfo::productType() == "windows" ||
-         QSysInfo::productType() == "winrt" ) {
-         system( "chcp 65001" );
-    }else {
-         qDebug() << "我是Linux";
-    }
+//    if ( QSysInfo::productType() == "windows" ||
+//         QSysInfo::productType() == "winrt" ) {
+//         system( "chcp 65001" );
+//    }else {
+//         qDebug() << "我是Linux";
+//    }
 
     QString path = ":/res/data.json";
     QFile file(path);
