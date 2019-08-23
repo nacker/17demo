@@ -1,0 +1,35 @@
+{
+    "name":"value",
+    "secondName":{"thirdName":"thirdValue"},
+    "status":[
+        {"id":"1","title":"ls","desc":"语法：#ls [路径]"},
+        {"id":"2","title":"clear","desc":"语法：#clear"},
+        {"id":"3","title":"su","desc":"#su 需要切换到的用户名（用户名可以不写，则表示切换到root用户）"},
+        {"id":"4","title":"cd","desc":"语法：#cd 需要切换到的路径（路径可以是相对路径，也可以是绝对路径）"},
+        {"id":"5","title":"pwd","desc":"作用：打印当前的工作路径（print working directory）。"},
+        {"id":"6","title":"touch","desc":"语法：#touch路径"},
+        {"id":"7","title":"mkdir","desc":"语法：#mkdir 文件夹路径"},
+        {"id":"8","title":"cp","desc":"语法：#cp [-r] 需要复制的文档 需要保存的位置"},
+        {"id":"9","title":"mv","desc":"语法：#mv 需要操作的文档 新的文档的位置"},
+        {"id":"10","title":"rm","desc":"语法：#rm [-rf] 需要删除的文档"},
+        {"id":"11","title":"tail","desc":"语法：#tail -n 文件的路径"},
+        {"id":"12","title":"head","desc":"语法：#head -n 文件的路径"},
+        {"id":"13","title":"cat","desc":"语法：#cat 文件路径1  文件路径2  文件路径3 …"},
+        {"id":"14","title":"tac","desc":"语法：#tac 文件路径1  文件路径2  文件路径3…"},
+        {"id":"15","title":"vim","desc":"语法：#vim 文件路径"},
+        {"id":"16","title":"reboot","desc":"语法：#reboot"},
+        {"id":"17","title":"shutdown","desc":"语法：#shutdown -h 时间"},
+        {"id":"18","title":"halt","desc":"语法：#halt"},
+        {"id":"19","title":"du","desc":"语法：#du -sh 目录路径"},
+        {"id":"20","title":"df","desc":"语法：#df -h"},
+        {"id":"21","title":"free","desc":"语法：#free -m"},
+        {"id":"22","title":"find","desc":"语法：#find 范围路径 选项 选项的值"},
+        {"id":"23","title":"ps","desc":"语法：#ps -ef"},
+        {"id":"24","title":"service","desc":"语法：#service 服务名 start/stop/restart"},
+        {"id":"25","title":"grep","desc":"语法：#grep [选项] 关键词 文件路径/内容"},
+        {"id":"26","title":"wc","desc":"语法：#wc -lwc 文档的路径"},
+        {"id":"27","title":"tar","desc":"tar -jxvf 路径(针对.tar.bz2格式)"},
+        {"id":"28","title":"tar","desc":"#tar -zxvf 路径(针对.tar.gz格式)"}
+
+	 ]
+ }
